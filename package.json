@@ -1,5 +1,5 @@
 {
-  "name": "bvon",
+  "name": "@neumatter/bvon",
   "version": "1.0.0",
   "description": "Serialize data into buffer. Browser or NodeJS.",
   "type": "module",
