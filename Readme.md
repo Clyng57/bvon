@@ -16,7 +16,7 @@ Serialize data into a buffer. Result size is smaller than BSON and JSON. Browser
 ## Install
 
 ```console
-npm i bvon
+npm i @neumatter/bvon
 ```
 
 <br />
@@ -33,7 +33,7 @@ Returns `ByteView`
 
 #### without schema:
 ```js
-import BVON, { UOID } from 'bvon'
+import BVON, { UOID } from '@neumatter/bvon'
 
 const user = {
   id: new UOID('2LD32T9NBPMF3YDQYLVANMG22A2J'),
@@ -65,7 +65,7 @@ prints: <ByteView(216) 09 08 06 06 08 02 69 64 10 08
 
 #### with schema:
 ```js
-import BVON, { UOID } from 'bvon'
+import BVON, { UOID } from '@neumatter/bvon'
 
 const user = {
   id: new UOID('2LD32T9NBPMF3YDQYLVANMG22A2J'),
@@ -121,7 +121,7 @@ If the data was serialized using a schema, it must also be deserialized with a s
 Returns `any`
 
 ```js
-import BVON from 'bvon'
+import BVON from '@neumatter/bvon'
 
 console.log(BVON.deserialize(serializedUser))
 
