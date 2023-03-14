@@ -1,0 +1,49 @@
+{
+  "name": "bvon",
+  "version": "1.0.0",
+  "description": "Serialize data into buffer. Browser or NodeJS.",
+  "type": "module",
+  "author": "Cal Young",
+  "repository": {
+    "url": "https://github.com/Clyng57/bvon"
+  },
+  "keywords": [
+    "arraybuffer",
+    "buffer",
+    "bson",
+    "bytes",
+    "byteview",
+    "uint8array",
+    "nodejs",
+    "encoder",
+    "bvon",
+    "serialize",
+    "serializer",
+    "binary",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.17.0",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "@neumatter/random-bytes": "^1.0.3",
+    "byteview": "^1.0.2"
+  },
+  "babel": {
+    "targets": {
+      "node": "16"
+    }
+  },
+  "standard": {
+    "parser": "@babel/eslint-parser",
+    "ignore": [
+      "/types"
+    ]
+  }
+}
